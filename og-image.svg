@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0a0a0a"/>
+  <circle cx="600" cy="120" r="360" fill="#3A63EC" opacity=".20"/>
+  <rect x="100" y="100" width="1000" height="430" rx="32" fill="#101114" stroke="rgba(255,255,255,.16)"/>
+  <text x="150" y="230" fill="#ffffff" font-family="Arial, sans-serif" font-size="72" font-weight="700">Ocean Anti-Cheat</text>
+  <text x="150" y="306" fill="#8fa8ff" font-family="Arial, sans-serif" font-size="44" font-weight="700">Most powerful Screenshare Tool</text>
+  <text x="150" y="382" fill="#b7b7b7" font-family="Arial, sans-serif" font-size="30">Detect cheaters in 60 seconds with forensic analysis</text>
+  <rect x="780" y="210" width="240" height="160" rx="24" fill="#3A63EC" opacity=".22" stroke="#3A63EC"/>
+  <text x="838" y="310" fill="#ffffff" font-family="Arial, sans-serif" font-size="60" font-weight="700">97</text>
+  <text x="828" y="346" fill="#b7b7b7" font-family="Arial, sans-serif" font-size="20">risk score</text>
+</svg>
