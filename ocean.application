@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" 
-    xmlns="urn:schemas-microsoft-com:asm.v2" 
-    xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" 
-    xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <assemblyIdentity name="ocean.exe" version="1.0.0.0" />
-  <application />
-  <entryPoint>
-    <assemblyIdentity name="ocean.exe" version="1.0.0.0" />
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd"
+    xmlns="urn:schemas-microsoft-com:asm.v2"
+    xmlns:asmv1="urn:schemas-microsoft-com:asm.v1"
+    xmlns:asmv2="urn:schemas-microsoft-com:asm.v2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:asmv3="urn:schemas-microsoft-com:asm.v3"
+    xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <assemblyIdentity name="ocean.exe" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+  <description asmv2:iconFile="ocean.exe" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application>
+    <assemblyIdentity name="ocean.exe" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
     <commandLine file="ocean.exe" parameters="" />
-  </entryPoint>
+  </application>
+  <dependency>
+    <dependentAssembly dependencyType="install" codebase="ocean.exe" size="0">
+      <assemblyIdentity name="ocean.exe" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
 </asmv1:assembly>
