@@ -1,5 +1,6 @@
 * text=auto
 *.exe binary
+*.iso binary
 *.png binary
 *.jpg binary
 *.jpeg binary
