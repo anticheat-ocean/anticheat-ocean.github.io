@@ -1,11 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#0a0a0a"/>
-  <circle cx="600" cy="120" r="360" fill="#3A63EC" opacity=".20"/>
-  <rect x="100" y="100" width="1000" height="430" rx="32" fill="#101114" stroke="rgba(255,255,255,.16)"/>
-  <text x="150" y="230" fill="#ffffff" font-family="Arial, sans-serif" font-size="72" font-weight="700">Ocean Anti-Cheat</text>
-  <text x="150" y="306" fill="#8fa8ff" font-family="Arial, sans-serif" font-size="44" font-weight="700">Most powerful Screenshare Tool</text>
-  <text x="150" y="382" fill="#b7b7b7" font-family="Arial, sans-serif" font-size="30">Detect cheaters in 60 seconds with forensic analysis</text>
-  <rect x="780" y="210" width="240" height="160" rx="24" fill="#3A63EC" opacity=".22" stroke="#3A63EC"/>
-  <text x="838" y="310" fill="#ffffff" font-family="Arial, sans-serif" font-size="60" font-weight="700">97</text>
-  <text x="828" y="346" fill="#b7b7b7" font-family="Arial, sans-serif" font-size="20">risk score</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Ocean Anti-Cheat">
+  <defs>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(936 84) rotate(124) scale(500 620)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#304dba" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#06080d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wave" x1="788" y1="230" x2="1024" y2="414" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8ba4ff"/>
+      <stop offset="1" stop-color="#55d8ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#06080d"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <path d="M0 90h1200M0 180h1200M0 270h1200M0 360h1200M0 450h1200M0 540h1200M90 0v630M180 0v630M270 0v630M360 0v630M450 0v630M540 0v630M630 0v630M720 0v630M810 0v630M900 0v630M990 0v630M1080 0v630" stroke="#fff" stroke-opacity=".025"/>
+  <rect x="84" y="84" width="52" height="52" rx="14" fill="#121a2c" stroke="#6c88f0" stroke-opacity=".65"/>
+  <path d="M96 104c6 5 12 5 18 0s12-5 18 0M96 112c6 5 12 5 18 0s12-5 18 0M96 120c6 5 12 5 18 0s12-5 18 0" fill="none" stroke="#8ba4ff" stroke-width="2.4" stroke-linecap="round"/>
+  <text x="154" y="121" fill="#f7f9fd" font-family="Arial, sans-serif" font-size="26" font-weight="700">Ocean</text>
+  <text x="84" y="282" fill="#f7f9fd" font-family="Arial, sans-serif" font-size="74" font-weight="700" letter-spacing="-3">See the signal.</text>
+  <text x="84" y="362" fill="#8ba4ff" font-family="Arial, sans-serif" font-size="74" font-weight="700" letter-spacing="-3">Skip the noise.</text>
+  <text x="88" y="430" fill="#929db1" font-family="Arial, sans-serif" font-size="25">Forensic intelligence for staff teams.</text>
+  <rect x="760" y="154" width="354" height="322" rx="28" fill="#0a0d14" stroke="#7389db" stroke-opacity=".35"/>
+  <circle cx="937" cy="315" r="100" fill="none" stroke="#1b2130" stroke-width="20"/>
+  <path d="M937 215a100 100 0 1 1-94 66" fill="none" stroke="url(#wave)" stroke-width="20" stroke-linecap="round"/>
+  <text x="937" y="325" fill="#f7f9fd" font-family="Arial, sans-serif" font-size="64" font-weight="700" text-anchor="middle">72</text>
+  <text x="937" y="357" fill="#748095" font-family="monospace" font-size="13" text-anchor="middle" letter-spacing="3">REVIEW</text>
 </svg>
